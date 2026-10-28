@@ -1,0 +1,9 @@
+--- /data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-cli/SKILL.md	2026-10-27 04:26:58.950349776 +0000
++++ /data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-cli/SKILL.md	2026-10-27 04:26:59.014349778 +0000
+@@ -93,0 +94,2 @@
++# scroll by <dx> <dy> pixels, negative dy scrolls up
++# the element under the mouse pointer scrolls, so mousemove over it first
+@@ -94,0 +97 @@
++playwright-cli mousewheel 0 -100
+@@ -112,0 +116 @@
++playwright-cli tab-new https://example.com/page --isolated-context=user-b

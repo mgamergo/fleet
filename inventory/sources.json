@@ -1,0 +1,2115 @@
+{
+  "version": 1,
+  "inventoriedAt": "2026-10-28",
+  "scanRoots": [
+    "/data/home",
+    "/data/workspace"
+  ],
+  "excludedDirectories": [
+    "node_modules",
+    ".git"
+  ],
+  "counts": {
+    "personalSkillsFound": 0,
+    "skillPathOccurrences": 203,
+    "thirdPartySkillNames": 127,
+    "thirdPartyContentVariants": 128,
+    "discoveredInstructionPaths": 5,
+    "additionalContextFiles": 2
+  },
+  "sources": [
+    {
+      "path": "/data/home/.bun/install/cache/next@16.4.3@@@1/AGENTS.md",
+      "realpath": "/data/home/.bun/install/cache/next@16.4.3@@@1/AGENTS.md",
+      "sha256": "7cf4bc58686d02388189b8cf6125db96ba3f9469b6f7e538d73d588638873728",
+      "mtime": "2026-10-27T05:13:30.474Z",
+      "symlink": null,
+      "classification": "dependency-instructions",
+      "copiedTo": null
+    },
+    {
+      "path": "/data/home/.bun/install/cache/next/16.4.3@@@1/AGENTS.md",
+      "realpath": "/data/home/.bun/install/cache/next@16.4.3@@@1/AGENTS.md",
+      "sha256": "7cf4bc58686d02388189b8cf6125db96ba3f9469b6f7e538d73d588638873728",
+      "mtime": "2026-10-27T05:13:30.474Z",
+      "symlink": null,
+      "classification": "dependency-instructions",
+      "copiedTo": null
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "sha256": "9bba755285a4c9ad72a4a41b9c7baef6fb516d329c0b44ed0573715f4479b906",
+      "mtime": "2026-10-27T04:26:58.950Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-cli"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "sha256": "60f57b31767d562c30cc5332081418c2945f4d9c998efa6e09191333654dd429",
+      "mtime": "2026-10-27T04:26:58.950Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-component-testing"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "sha256": "c76d28244c05a6474f6030213127cd62253208b06430ea2378576f0669db2c9a",
+      "mtime": "2026-10-27T04:26:58.950Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-trace"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "sha256": "49bebc4b652d58860e91d6478fa446645e349ba8556667cc02702645d7ffde0b",
+      "mtime": "2026-10-27T04:26:59.014Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-cli"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "sha256": "60f57b31767d562c30cc5332081418c2945f4d9c998efa6e09191333654dd429",
+      "mtime": "2026-10-27T04:26:59.014Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-component-testing"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "sha256": "c76d28244c05a6474f6030213127cd62253208b06430ea2378576f0669db2c9a",
+      "mtime": "2026-10-27T04:26:59.014Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-trace"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core/1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "sha256": "9bba755285a4c9ad72a4a41b9c7baef6fb516d329c0b44ed0573715f4479b906",
+      "mtime": "2026-10-27T04:26:58.950Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-cli"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core/1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "sha256": "60f57b31767d562c30cc5332081418c2945f4d9c998efa6e09191333654dd429",
+      "mtime": "2026-10-27T04:26:58.950Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-component-testing"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core/1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.0-c17905f0d2f6a539@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "sha256": "c76d28244c05a6474f6030213127cd62253208b06430ea2378576f0669db2c9a",
+      "mtime": "2026-10-27T04:26:58.950Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-trace"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core/1.64.1@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-cli/SKILL.md",
+      "sha256": "49bebc4b652d58860e91d6478fa446645e349ba8556667cc02702645d7ffde0b",
+      "mtime": "2026-10-27T04:26:59.014Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-cli"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core/1.64.1@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-component-testing/SKILL.md",
+      "sha256": "60f57b31767d562c30cc5332081418c2945f4d9c998efa6e09191333654dd429",
+      "mtime": "2026-10-27T04:26:59.014Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-component-testing"
+    },
+    {
+      "path": "/data/home/.bun/install/cache/playwright-core/1.64.1@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "realpath": "/data/home/.bun/install/cache/playwright-core@1.64.1@@@1/lib/tools/skills/playwright-trace/SKILL.md",
+      "sha256": "c76d28244c05a6474f6030213127cd62253208b06430ea2378576f0669db2c9a",
+      "mtime": "2026-10-27T04:26:59.014Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "playwright-trace"
+    },
+    {
+      "path": "/data/home/.claude/CLAUDE.md",
+      "realpath": "/data/home/AGENTS.md",
+      "sha256": "2ac491b068dc19d68650529a0f73e16bee236ef365ab7a827ae1f3370f5b6d16",
+      "mtime": "2026-10-27T05:01:56.714Z",
+      "symlink": "/data/home/AGENTS.md",
+      "classification": "personal-instructions",
+      "copiedTo": "core/CLAUDE.md"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/architect/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/architect/SKILL.md",
+      "sha256": "3e38f1c19e038627fb9cb9f316bc8bb16d47fc87f45c3ed9353cde0a59131b14",
+      "mtime": "2026-10-28T01:59:47.052Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "architect"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/arena/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/arena/SKILL.md",
+      "sha256": "41d39c424df55902d8d7f730a214a90b76c8e4e15b1207b8a9a3048f9c63206e",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "arena"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/automate-me/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/automate-me/SKILL.md",
+      "sha256": "352b180d801e8de1120c43adfa1d0a9c86a385c3a075122f470e54f57a3d9052",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "automate-me"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/babysit/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/babysit/SKILL.md",
+      "sha256": "516aaf1dd88e082ecf7531f63c6ba5dee5e00d92048b1f484fee56dabe9c9bed",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "babysit"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/benchmark-checklist/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/benchmark-checklist/SKILL.md",
+      "sha256": "abc1e34f3e05dc7972ab73da76cae5685e1e2e8782c9cf1b630dc9c2a0ad7342",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "benchmark-checklist"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/blast-radius/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/blast-radius/SKILL.md",
+      "sha256": "03f44dbf518c0b87b19b70c57af40cf74dd70fb5affa6550ab508751325760c0",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "blast-radius"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/bro/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/bro/SKILL.md",
+      "sha256": "18acb10aae040eb78058cb07f2f1e0ae607886b64c692082fc804cc6ce86f469",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "bro"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/correct/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/correct/SKILL.md",
+      "sha256": "7df667ae327c76c958b1bcbcad9759a70c8ad5cdacf5f8d2e3af46a5a7e5f85c",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "correct"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/create-formal-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/create-formal-verification-skill/SKILL.md",
+      "sha256": "af8ce2888328757ed9ac1bff2de5a382d5b6a1eabb55b9ed99c76ca905f2cd67",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "create-formal-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/create-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/create-verification-skill/SKILL.md",
+      "sha256": "30d8469d99c780272ffc6b1a263f4b2ad17090b385d0f17adbe1ec1bbefad906",
+      "mtime": "2026-10-28T01:59:47.054Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "create-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/deslop/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/deslop/SKILL.md",
+      "sha256": "2f7b7def74af7ed11f5b44b4d32f0f91fca8c5d1f92bf2171e8d12fd33a0f810",
+      "mtime": "2026-10-28T01:59:47.059Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "deslop"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/figure-it-out/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/figure-it-out/SKILL.md",
+      "sha256": "b7912433f13a3f86aa3b6e4bff68d101532d626f6188a036caad0f31ec783615",
+      "mtime": "2026-10-28T01:59:47.059Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figure-it-out"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/fix-ci/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/fix-ci/SKILL.md",
+      "sha256": "925f8c3e11de8bcc0cd015ec907f4d00b12cde6714246554ed3a52e096536522",
+      "mtime": "2026-10-28T01:59:47.059Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "fix-ci"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/fix-merge-conflicts/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/fix-merge-conflicts/SKILL.md",
+      "sha256": "738b251281b30fd33e3892d0679cf94249e9c9e29e1bed40bcdde4a6aca98a76",
+      "mtime": "2026-10-28T01:59:47.059Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "fix-merge-conflicts"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/get-pr-comments/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/get-pr-comments/SKILL.md",
+      "sha256": "8bf292736cab922276feb4d8377edc2fc4102a7beb62bcd1f3f5cf72a79b16cc",
+      "mtime": "2026-10-28T01:59:47.059Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "get-pr-comments"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/how/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/how/SKILL.md",
+      "sha256": "c28b1a99e63118ba0460a47e952293ab7382469ed5af3e1e3380669a10fcbab3",
+      "mtime": "2026-10-28T01:59:47.059Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "how"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/in-your-own-words/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/in-your-own-words/SKILL.md",
+      "sha256": "292b1f5b008a78be49830f02f8bc04be7bf0df50e66d0143138f244f2b47a38a",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "in-your-own-words"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/interrogate/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/interrogate/SKILL.md",
+      "sha256": "114886aa29705077dc316050d2c60bd4e230ea29a5ec63a80df17fd28e1c993e",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "interrogate"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/ketchup-video/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/ketchup-video/SKILL.md",
+      "sha256": "fa032bece48c7255575179e6d002425dc303cc2e2f23c45b476bcdb12fc8da5b",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "ketchup-video"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/ketchup/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/ketchup/SKILL.md",
+      "sha256": "65e08d735b3e34eb6114e5b8fc99f825fcf06c0c644651497f15685db61e4eaa",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "ketchup"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/maintain-formal-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/maintain-formal-verification-skill/SKILL.md",
+      "sha256": "d6ed5e2af3446bd4a37c1a635b1bc363e9a8821249c97ee1b74f1382f5929aa0",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "maintain-formal-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/maintain-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/maintain-verification-skill/SKILL.md",
+      "sha256": "ba3ed7050375bffcf30c478388b953181ce2b1109302ab33343d0cbbc9fe7a5c",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "maintain-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/make-pr-easy-to-review/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/make-pr-easy-to-review/SKILL.md",
+      "sha256": "e8da0d4a85b7c04823698f539251617389f827fd9137100ef7eaea5dcc992fe7",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "make-pr-easy-to-review"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/no-comments/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/no-comments/SKILL.md",
+      "sha256": "a5e9f2a8e63cdeea9aa79102716d85b0b4c57a269ee74b0996cc92a22ecc07d0",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "no-comments"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/poteto-help/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/poteto-help/SKILL.md",
+      "sha256": "f8c79a4a70847ec422ddf3a58153b36666aa3f00d4ae9da4c1c2da6874273216",
+      "mtime": "2026-10-28T01:59:47.062Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "poteto-help"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/poteto-mode/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/poteto-mode/SKILL.md",
+      "sha256": "1c1cfd5c9ae82f7308335695eb54e36cd6edbd4db8d6072b6033249f1aea060e",
+      "mtime": "2026-10-28T01:59:47.065Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "poteto-mode"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-attack-the-premise/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-attack-the-premise/SKILL.md",
+      "sha256": "9c9c8fa3bc0f267f07513a21de5e6dfb443b3ba44b8246a6df8da481a29d759d",
+      "mtime": "2026-10-28T01:59:47.082Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-attack-the-premise"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-boundary-discipline/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-boundary-discipline/SKILL.md",
+      "sha256": "e59efe04ed66e3a403a50e70640daeb5c7b592598687a67b6e25ceed6251d19f",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-boundary-discipline"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-build-the-lever/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-build-the-lever/SKILL.md",
+      "sha256": "9dc489b420ff2d4ea3676bd2826a9c3568fa8d965269b2a10145c04f6efa334c",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-build-the-lever"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-encode-lessons-in-structure/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-encode-lessons-in-structure/SKILL.md",
+      "sha256": "1568ece8b96017b6e244530f96d937317d0ac602a58f25415d9f90073b378d6c",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-encode-lessons-in-structure"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-exhaust-the-design-space/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-exhaust-the-design-space/SKILL.md",
+      "sha256": "4abd4aaca2527af82dba58d908c7d91c33a0fe0f2145aa46a19bcf7fb5525db9",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-exhaust-the-design-space"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-experience-first/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-experience-first/SKILL.md",
+      "sha256": "688917387e19da6a343fe657c726eb65998937da69ed7d29f1dfaadb53516a10",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-experience-first"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-explain-the-number/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-explain-the-number/SKILL.md",
+      "sha256": "e2f115b68c5321be12a2372940739d3ce47b7509c5e6acb832e8f4d002e3557c",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-explain-the-number"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-fix-root-causes/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-fix-root-causes/SKILL.md",
+      "sha256": "d42f26857432f44880a2c08280fcfacb8ce08590413e6a2bcbd48aace84b58a9",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-fix-root-causes"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-foundational-thinking/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-foundational-thinking/SKILL.md",
+      "sha256": "a3d9bf77ebb9ed5c5eb9ef6ae719f6eeecf5fda6122a134a89ce6856b14577ab",
+      "mtime": "2026-10-28T01:59:47.086Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-foundational-thinking"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-guard-the-context-window/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-guard-the-context-window/SKILL.md",
+      "sha256": "6db84b7d5e67fb4e2e6a260605f2c2e34fbeaa1bc0e49645eef6f00a17543778",
+      "mtime": "2026-10-28T01:59:47.090Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-guard-the-context-window"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-laziness-protocol/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-laziness-protocol/SKILL.md",
+      "sha256": "4c1514611a4d85f58a8d31403d6541aacbd1254bd981667adf6111b08295c539",
+      "mtime": "2026-10-28T01:59:47.090Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-laziness-protocol"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-make-operations-idempotent/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-make-operations-idempotent/SKILL.md",
+      "sha256": "de925a452e5b74568ef545045c9b221c21f4f8f36e3df0b36c75279a285555c5",
+      "mtime": "2026-10-28T01:59:47.090Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-make-operations-idempotent"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "sha256": "7a4af874d91f91fd0c1dea1204e0d46a2e42cf6eb8b5e1a58479fd461cb0dcf4",
+      "mtime": "2026-10-28T01:59:47.090Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-migrate-callers-then-delete-legacy-apis"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-minimize-reader-load/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-minimize-reader-load/SKILL.md",
+      "sha256": "d10f8f6f185a61df8db1b5037bcf638f815d49f3cfe1fb3613f9a858896e6de5",
+      "mtime": "2026-10-28T01:59:47.090Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-minimize-reader-load"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-model-the-domain/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-model-the-domain/SKILL.md",
+      "sha256": "3d14c29b3aca902ed7bf11716df971d4561f8e9624d70e2a9650feb918a22619",
+      "mtime": "2026-10-28T01:59:47.094Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-model-the-domain"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-never-block-on-the-human/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-never-block-on-the-human/SKILL.md",
+      "sha256": "060b88f06b57486102bd7ac1c6fc73b84092f956a836d9c8947cc768a8eef4c2",
+      "mtime": "2026-10-28T01:59:47.094Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-never-block-on-the-human"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-outcome-oriented-execution/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-outcome-oriented-execution/SKILL.md",
+      "sha256": "55f1baeb9951f8584399bf82042e78f623e1f1dd560cb9b6413302bde43fd439",
+      "mtime": "2026-10-28T01:59:47.094Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-outcome-oriented-execution"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-prove-it-works/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-prove-it-works/SKILL.md",
+      "sha256": "d5ad4e2fe1fe0fe5fd7f96ef117ed435a55a536bb1f2ce353c105c31239c0635",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-prove-it-works"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-redesign-from-first-principles/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-redesign-from-first-principles/SKILL.md",
+      "sha256": "e54d6d205206261850eb5eb28026f0820773e01001485c97b4b423bab18b2c05",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-redesign-from-first-principles"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "sha256": "dd432081bc5664ce1a9513a6b58207d8e4685e0d0cb894278204bd08a637f601",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-separate-before-serializing-shared-state"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-sequence-verifiable-units/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-sequence-verifiable-units/SKILL.md",
+      "sha256": "5bee6caf5abdf7b05b3e7c8d3e66549d108c2f798d8155c352a1764d030816d7",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-sequence-verifiable-units"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-subtract-before-you-add/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-subtract-before-you-add/SKILL.md",
+      "sha256": "af2dfa66022e7a27e05fddf17ad8d8e450ebd4150ca3d037ccf25a8191ac0882",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-subtract-before-you-add"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-test-behavior-not-implementation/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-test-behavior-not-implementation/SKILL.md",
+      "sha256": "8fa32ef4128346c08a2cdb5d9ec3cd08991044936bb77bd1e5b15d35596d3726",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-test-behavior-not-implementation"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-type-system-discipline/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/principle-type-system-discipline/SKILL.md",
+      "sha256": "e4bb75104ff5f37785dfe3417b7ffa1b12a27d88dc0affee96c200e4fa734a24",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-type-system-discipline"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/recall/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/recall/SKILL.md",
+      "sha256": "b18e825be08093e1008ca9b7a52dcd8d22e09392a7c584b10c58cc53138f3ab4",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "recall"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/reflect/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/reflect/SKILL.md",
+      "sha256": "4cda0640ae3f8d1b4c7229e65ae07992500aef5bd2d2091644b637b2f0dc0a2e",
+      "mtime": "2026-10-28T01:59:47.098Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "reflect"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/setup-pstack/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/setup-pstack/SKILL.md",
+      "sha256": "3ec9fdc5576e757464dec08dc34701a094a9b81d160f55a1439ccda6cf5673cc",
+      "mtime": "2026-10-28T01:59:47.105Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "setup-pstack"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/sharpen/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/sharpen/SKILL.md",
+      "sha256": "c804fef77be5157c6a47125e931ff0f914988316cad544607e837cd805d68f93",
+      "mtime": "2026-10-28T01:59:47.106Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "sharpen"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/show-me-your-work/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/show-me-your-work/SKILL.md",
+      "sha256": "6d95ebf11474c949d1d8f041f12892ebeab6bf09c9a3d948299a6ce658151d54",
+      "mtime": "2026-10-28T01:59:47.106Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "show-me-your-work"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/statechart/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/statechart/SKILL.md",
+      "sha256": "9d401e0e3169d75bdabbc4a68d9f964b2fe467003202cdbac14d45c64c39099d",
+      "mtime": "2026-10-28T01:59:47.107Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "statechart"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/swarm/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/swarm/SKILL.md",
+      "sha256": "d9f08647b3380b3f0c43d589e01f6b709e6753573da60de569bd7efc642b1216",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "swarm"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/tdd/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/tdd/SKILL.md",
+      "sha256": "276f883002b7a0b9be4ec982d0752fc68eaceed8e6db502316a87aa4600d152e",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "tdd"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/teach/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/teach/SKILL.md",
+      "sha256": "720c0820a5838097182dc14fa6e0344c0b6a877e281d015458862cd81775220f",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "teach"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/technical-writing/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/technical-writing/SKILL.md",
+      "sha256": "7a6c08c90548d13b80e74b06115aeeb03847dbef758cefc1eeca70ba9c0db50b",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "technical-writing"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/thermo-nuclear-code-quality-review/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/thermo-nuclear-code-quality-review/SKILL.md",
+      "sha256": "35f68c89a24f690eaba7f77c637d3b7dc1cb0fc7bf17670606ffd83f074fa626",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "thermo-nuclear-code-quality-review"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/thermo-nuclear-review/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/thermo-nuclear-review/SKILL.md",
+      "sha256": "8e285b67eb7457715d44b1be8294c9a1aeae069242cb10a92903ad87f019c76a",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "thermo-nuclear-review"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/thermos/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/thermos/SKILL.md",
+      "sha256": "599d59080d3dbee1c8dac455fd718230e47ea0295572bef467df5c32bd983906",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "thermos"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/typescript-best-practices/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/typescript-best-practices/SKILL.md",
+      "sha256": "5b42261bc68bb649ec07aac8fa23912cff9701d26dc20b04a33096c3cba513c9",
+      "mtime": "2026-10-28T01:59:47.222Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "typescript-best-practices"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/unslop/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/unslop/SKILL.md",
+      "sha256": "0503149a9b85dad02bbc747a3aeb534e2ba07f53c5fd57e491ea3d1e67659aa3",
+      "mtime": "2026-10-28T01:59:47.227Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "unslop"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/what-did-i-get-done/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/what-did-i-get-done/SKILL.md",
+      "sha256": "479813c9abaacb5b6b0531f1de7dc5eb2f3bd9673707a992d1073335836e82f8",
+      "mtime": "2026-10-28T01:59:47.227Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "what-did-i-get-done"
+    },
+    {
+      "path": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/why/SKILL.md",
+      "realpath": "/data/home/.codex/.tmp/marketplaces/pstack-claude/plugins/pstack/skills/why/SKILL.md",
+      "sha256": "0547728389d50fad1e95b64235745320aea1613bd6b6530c164eba58d17bb4de",
+      "mtime": "2026-10-28T01:59:47.227Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "why"
+    },
+    {
+      "path": "/data/home/.codex/AGENTS.md",
+      "realpath": "/data/home/AGENTS.md",
+      "sha256": "2ac491b068dc19d68650529a0f73e16bee236ef365ab7a827ae1f3370f5b6d16",
+      "mtime": "2026-10-27T05:01:56.714Z",
+      "symlink": "/data/home/AGENTS.md",
+      "classification": "personal-instructions",
+      "copiedTo": "core/legacy/codex-AGENTS.md"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/cloud-environment/0.1.2/skills/runtime/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/cloud-environment/0.1.2/skills/runtime/SKILL.md",
+      "sha256": "c23513e361a6f9dbe1c28e5c41de635f355469b4ec1740ae1cd2de1d38a91bd3",
+      "mtime": "2026-10-27T04:12:28.764Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "cloud-environment-runtime"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-code-connect/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-code-connect/SKILL.md",
+      "sha256": "87af3996edb167d6aa3c044cb1bbb6a0d8e2d631c731bb896b1e1e8669640415",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-code-connect"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-code-workflows/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-code-workflows/SKILL.md",
+      "sha256": "ac69b52d96a5d1b1832be9f0be99c221cfd861f8aad2260a0508386229982c7c",
+      "mtime": "2026-10-27T04:12:29.484Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-code-workflows"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-create-new-file/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-create-new-file/SKILL.md",
+      "sha256": "bb7bc48c487f0ad7e738c23d0685bad5ec0bbbca8f5b5bb6295dc0666cc9ddf1",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-create-new-file"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-design-to-code/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-design-to-code/SKILL.md",
+      "sha256": "a6e852421e4db72260b2ca641929b1f84684e5b067aead081e35111f5b5feee4",
+      "mtime": "2026-10-27T04:12:29.482Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-design-to-code"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generate-design/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generate-design/SKILL.md",
+      "sha256": "f4f05f29f69a5b4628d4574359910fea926735af78c5e264a1c4cd16f69315b0",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-generate-design"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generate-diagram/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generate-diagram/SKILL.md",
+      "sha256": "7297638dbf2130d1b37bfd85df65d290a4dd0b11a11b54abafcf7d07565922b5",
+      "mtime": "2026-10-27T04:12:29.484Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-generate-diagram"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generate-library/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generate-library/SKILL.md",
+      "sha256": "b5277050191d1985f59e162e0acc82523a0a39a8cf614069a3d63753d5990f27",
+      "mtime": "2026-10-27T04:12:29.482Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-generate-library"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generative-plugins/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-generative-plugins/SKILL.md",
+      "sha256": "b97eb184a1f6b6545f3b8266a4d1a1e29304888904db7daed2864b9fd036b124",
+      "mtime": "2026-10-27T04:12:29.484Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-generative-plugins"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-implement-motion/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-implement-motion/SKILL.md",
+      "sha256": "2e26e67284d47c6a74aedf9dca7543f4c8817dafc59a11abb156d4f7feedb2c2",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-implement-motion"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-shaders/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-shaders/SKILL.md",
+      "sha256": "c7e34c5a4eb316cfe84768cb419fe71b3ce840b29561ecd0f90eb402a72e1adf",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-shaders"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-spec/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-spec/SKILL.md",
+      "sha256": "7bc6c406d19906217724279f254d773193bac45d385b35d5db6b58673c73f7e3",
+      "mtime": "2026-10-27T04:12:29.482Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-spec"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-swiftui/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-swiftui/SKILL.md",
+      "sha256": "868c4defe2c0854f5a3e27594d3fa0f20347c86a9b15d103483b7488bfa8affe",
+      "mtime": "2026-10-27T04:12:29.482Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-swiftui"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use-figjam/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use-figjam/SKILL.md",
+      "sha256": "8d566444a1aaf31c122682a5fbe3d6f14c6a844a4e05164cda3de872752cea24",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-use-figjam"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use-motion/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use-motion/SKILL.md",
+      "sha256": "d74fa8c9435a5260f8a61e3a8fbf11c068f940ae3423e9be2efde8b5e785d78c",
+      "mtime": "2026-10-27T04:12:29.482Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-use-motion"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use-slides/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use-slides/SKILL.md",
+      "sha256": "0a69a65e686dcc223581afb409a4d31cf318716e2c65cc9c926839a8737e71a4",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-use-slides"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/figma/16.0.0/skills/figma-use/SKILL.md",
+      "sha256": "ac385b80a05c850b5abc6bcae7c56625c4576318510545453a568aa5f21b8a95",
+      "mtime": "2026-10-27T04:12:29.483Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figma-use"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/SKILL.md",
+      "sha256": "1c4f8e6477a61d45370731143fd926d2b8917594982f9cb39677909d645625c1",
+      "mtime": "2026-10-27T04:12:29.931Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "google-docs"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive-comments/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive-comments/SKILL.md",
+      "sha256": "a3077375a8f7558b9e052c98047747b8a4a1a90a9a90b552009c28fcdadfe94a",
+      "mtime": "2026-10-27T04:12:29.930Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "google-drive-comments"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/SKILL.md",
+      "sha256": "dabae8a192c861b76cf7b5742bdf14f8ed35e67d8e6cacfd5f746ffbefd6da5c",
+      "mtime": "2026-10-27T04:12:29.930Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "google-drive"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/SKILL.md",
+      "sha256": "1851109d8f2c182236d28db136fb161d30c85287e5bc4fa79cf137673184c58d",
+      "mtime": "2026-10-27T04:12:29.930Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "google-sheets"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/SKILL.md",
+      "sha256": "f85bd1d7080becf8c043a3646b6c3a53fbcd6d2a77c62a15112b8d89e01a4b83",
+      "mtime": "2026-10-27T04:12:29.930Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "google-slides"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/SKILL.md",
+      "sha256": "cf5360fd8b197673bb237c52c603c97fa319c875c3dfa2cd8efff52d4422f513",
+      "mtime": "2026-10-27T04:12:29.332Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-analytics-dashboard"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review/SKILL.md",
+      "sha256": "27721fc1d67d1b41949caa75ac8f94f81952ff124406878af6524047929e60d2",
+      "mtime": "2026-10-27T04:12:29.332Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-business-review"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report/SKILL.md",
+      "sha256": "563722f53854e606f8a9f87e37e72d7ef70a22d46d5836b8e4d6abfb1b79e9e0",
+      "mtime": "2026-10-27T04:12:29.329Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-design-report"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/SKILL.md",
+      "sha256": "0b05effc47df0a14f8e0c3e3597e6722224747435546385d38a2cae279bd20b9",
+      "mtime": "2026-10-27T04:12:29.329Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-experiment-analysis"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget/SKILL.md",
+      "sha256": "c0b6b7a62a15597aaf2b1ec679e21da48f533b756127f0aef957cdfe9f3da738",
+      "mtime": "2026-10-27T04:12:29.332Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-financial-budget"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/SKILL.md",
+      "sha256": "68abd08cfe5e073e3c446a3f675f44c5bf98f57434dba679e8acd8a763379a8b",
+      "mtime": "2026-10-27T04:12:29.327Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-investment-committee-memo"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/SKILL.md",
+      "sha256": "51fb9d21baf6119c4ccb1903638a6bac0e859210de63460fffa7025d52e997e0",
+      "mtime": "2026-10-27T04:12:29.327Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-legal-memorandum"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report/SKILL.md",
+      "sha256": "d58d019b89cb6f292ac3ab991d561489eef477ff53ce05fb024a0c936f5af26a",
+      "mtime": "2026-10-27T04:12:29.327Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-market-trends-report"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/SKILL.md",
+      "sha256": "880ef094d4d0c89a7bde5ce9bbe4086625c186651e9e6efc8ba8bdd7cc77f9d5",
+      "mtime": "2026-10-27T04:12:29.329Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-minimal-letterhead"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar/SKILL.md",
+      "sha256": "33bb660791a0b9a21628a42c34934932220203b6aabd84e98cb1b45327d0384c",
+      "mtime": "2026-10-27T04:12:29.329Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-operating-calendar"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review/SKILL.md",
+      "sha256": "6d63c5cd025ffe936e7bab5db3023672bbaec26af55c2bb8b057d38c202c9c32",
+      "mtime": "2026-10-27T04:12:29.332Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-operating-review"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff/SKILL.md",
+      "sha256": "aa893ebd89e7c8d1db4261d01cc2b1add35d78d00785871ccaaa5fc8db783ec9",
+      "mtime": "2026-10-27T04:12:29.328Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-project-kickoff"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker/SKILL.md",
+      "sha256": "d97d5be20189b7f53dd269b6e1c5f694eaf53e5a72f6559fcb1578911b7cda82",
+      "mtime": "2026-10-27T04:12:29.328Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-project-tracker"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/SKILL.md",
+      "sha256": "15cfeeedf440021f16ed3f3ad8c7c1ef6d48898b9447741e223d2fb41cfc9800",
+      "mtime": "2026-10-27T04:12:29.329Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-sales-pipeline"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/SKILL.md",
+      "sha256": "b7c8d0c05f75878b9bc21e56a57c41ec1aa29700aca0a24822be0f9f1bd53207",
+      "mtime": "2026-10-27T04:12:29.327Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-simple-dark-mode"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/SKILL.md",
+      "sha256": "7c68430c6cf57b55b457d4735dbd1a46b889bef135a32222902dd0848b6e1752",
+      "mtime": "2026-10-27T04:12:29.332Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-simple-light-mode"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/SKILL.md",
+      "sha256": "51d7882ac94e8e57b323394825728c33925af878806e37277217c2dc12a912e5",
+      "mtime": "2026-10-27T04:12:29.330Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-strategy-memorandum"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design/SKILL.md",
+      "sha256": "87f7b7ed1b0d8410f5e5971cd7f7db9a4165e2f37069e97e52dbfb469b75a57c",
+      "mtime": "2026-10-27T04:12:29.332Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-system-design"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/SKILL.md",
+      "sha256": "26d7cafdcd1899a937b325c5d02ac57c162d45002153be33a934d35f81eb6110",
+      "mtime": "2026-10-27T04:12:29.331Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-team-alignment"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/SKILL.md",
+      "sha256": "74f4a5cccec0107b861548b157e04c51d9b58ec13a990c86394b4c529b8ecf41",
+      "mtime": "2026-10-27T04:12:29.327Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "artifact-template-three-statement-forecast"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/maintain-space/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/maintain-space/SKILL.md",
+      "sha256": "53570e6cb8663d370dce15ed0d67208876c3b13015832c352daa759213e7378e",
+      "mtime": "2026-10-27T04:12:30.027Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "maintain-space"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/manage-schedules/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/manage-schedules/SKILL.md",
+      "sha256": "e0a464a83f15a6e896c5536cab775f667ebd0dd61eb64fe3c877a41935d64bd9",
+      "mtime": "2026-10-27T04:12:30.027Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "manage-schedules"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/organize-space/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/organize-space/SKILL.md",
+      "sha256": "fe553fb15809c972ae528d64917489e958f8cbf9432629caa79fd6da6b207da4",
+      "mtime": "2026-10-27T04:12:30.027Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "organize-space"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/write-page/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/write-page/SKILL.md",
+      "sha256": "39cb2ab7aa056cd00a38067f833cf5a7f19206e104e58320fc113ba699c14493",
+      "mtime": "2026-10-27T04:12:30.027Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "write-page"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/plugin-management/0.1.0/skills/plugin-management/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/plugin-management/0.1.0/skills/plugin-management/SKILL.md",
+      "sha256": "653841cc21205269f08b0ce135891e1518dac616a766bcfb0b57d788d3f68b10",
+      "mtime": "2026-10-27T04:12:30.186Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "plugin-management"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/sites/1.1.2/skills/sites-remix/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/sites/1.1.2/skills/sites-remix/SKILL.md",
+      "sha256": "34a249750d98e38f676fa391819593ab5c14e5f46f9137832a8c49180d47022d",
+      "mtime": "2026-10-27T04:12:30.275Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "sites-remix"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/sites/1.1.2/skills/sites/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/sites/1.1.2/skills/sites/SKILL.md",
+      "sha256": "00750ea5ca37e2b49afd2a57fee2149d22ee4f48af40bc094e6d2cee3e7bd1ad",
+      "mtime": "2026-10-27T04:12:30.275Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "sites"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/SKILL.md",
+      "sha256": "841354fb8116f8fdfd3b643b30828f5180196c594d3fed9b669b948b88892af1",
+      "mtime": "2026-10-27T04:12:30.110Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "create-pet"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/pets/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/pets/SKILL.md",
+      "sha256": "1bf5d45fd6a6390aab777229293fb05cef7cf898aac882f8955e40c378e52fcd",
+      "mtime": "2026-10-27T04:12:30.110Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "pets"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/update-pet/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/update-pet/SKILL.md",
+      "sha256": "c63c98d67b6ad781a72a8f9837ba1fb5e2d2a8054a2562e4025890a97d8a0e67",
+      "mtime": "2026-10-27T04:12:30.110Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "update-pet"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/architect/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/architect/SKILL.md",
+      "sha256": "3e38f1c19e038627fb9cb9f316bc8bb16d47fc87f45c3ed9353cde0a59131b14",
+      "mtime": "2026-10-28T01:59:47.845Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "architect"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/arena/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/arena/SKILL.md",
+      "sha256": "41d39c424df55902d8d7f730a214a90b76c8e4e15b1207b8a9a3048f9c63206e",
+      "mtime": "2026-10-28T01:59:47.756Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "arena"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/automate-me/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/automate-me/SKILL.md",
+      "sha256": "352b180d801e8de1120c43adfa1d0a9c86a385c3a075122f470e54f57a3d9052",
+      "mtime": "2026-10-28T01:59:47.833Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "automate-me"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/babysit/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/babysit/SKILL.md",
+      "sha256": "516aaf1dd88e082ecf7531f63c6ba5dee5e00d92048b1f484fee56dabe9c9bed",
+      "mtime": "2026-10-28T01:59:47.841Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "babysit"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/benchmark-checklist/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/benchmark-checklist/SKILL.md",
+      "sha256": "abc1e34f3e05dc7972ab73da76cae5685e1e2e8782c9cf1b630dc9c2a0ad7342",
+      "mtime": "2026-10-28T01:59:47.840Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "benchmark-checklist"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/blast-radius/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/blast-radius/SKILL.md",
+      "sha256": "03f44dbf518c0b87b19b70c57af40cf74dd70fb5affa6550ab508751325760c0",
+      "mtime": "2026-10-28T01:59:47.843Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "blast-radius"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/bro/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/bro/SKILL.md",
+      "sha256": "18acb10aae040eb78058cb07f2f1e0ae607886b64c692082fc804cc6ce86f469",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "bro"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/correct/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/correct/SKILL.md",
+      "sha256": "7df667ae327c76c958b1bcbcad9759a70c8ad5cdacf5f8d2e3af46a5a7e5f85c",
+      "mtime": "2026-10-28T01:59:47.845Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "correct"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/create-formal-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/create-formal-verification-skill/SKILL.md",
+      "sha256": "af8ce2888328757ed9ac1bff2de5a382d5b6a1eabb55b9ed99c76ca905f2cd67",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "create-formal-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/create-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/create-verification-skill/SKILL.md",
+      "sha256": "30d8469d99c780272ffc6b1a263f4b2ad17090b385d0f17adbe1ec1bbefad906",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "create-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/deslop/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/deslop/SKILL.md",
+      "sha256": "2f7b7def74af7ed11f5b44b4d32f0f91fca8c5d1f92bf2171e8d12fd33a0f810",
+      "mtime": "2026-10-28T01:59:47.845Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "deslop"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/figure-it-out/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/figure-it-out/SKILL.md",
+      "sha256": "b7912433f13a3f86aa3b6e4bff68d101532d626f6188a036caad0f31ec783615",
+      "mtime": "2026-10-28T01:59:47.770Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "figure-it-out"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/fix-ci/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/fix-ci/SKILL.md",
+      "sha256": "925f8c3e11de8bcc0cd015ec907f4d00b12cde6714246554ed3a52e096536522",
+      "mtime": "2026-10-28T01:59:47.834Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "fix-ci"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/fix-merge-conflicts/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/fix-merge-conflicts/SKILL.md",
+      "sha256": "738b251281b30fd33e3892d0679cf94249e9c9e29e1bed40bcdde4a6aca98a76",
+      "mtime": "2026-10-28T01:59:47.833Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "fix-merge-conflicts"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/get-pr-comments/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/get-pr-comments/SKILL.md",
+      "sha256": "8bf292736cab922276feb4d8377edc2fc4102a7beb62bcd1f3f5cf72a79b16cc",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "get-pr-comments"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/how/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/how/SKILL.md",
+      "sha256": "c28b1a99e63118ba0460a47e952293ab7382469ed5af3e1e3380669a10fcbab3",
+      "mtime": "2026-10-28T01:59:47.847Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "how"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/in-your-own-words/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/in-your-own-words/SKILL.md",
+      "sha256": "292b1f5b008a78be49830f02f8bc04be7bf0df50e66d0143138f244f2b47a38a",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "in-your-own-words"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/interrogate/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/interrogate/SKILL.md",
+      "sha256": "114886aa29705077dc316050d2c60bd4e230ea29a5ec63a80df17fd28e1c993e",
+      "mtime": "2026-10-28T01:59:47.759Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "interrogate"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/ketchup-video/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/ketchup-video/SKILL.md",
+      "sha256": "fa032bece48c7255575179e6d002425dc303cc2e2f23c45b476bcdb12fc8da5b",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "ketchup-video"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/ketchup/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/ketchup/SKILL.md",
+      "sha256": "65e08d735b3e34eb6114e5b8fc99f825fcf06c0c644651497f15685db61e4eaa",
+      "mtime": "2026-10-28T01:59:47.833Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "ketchup"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/maintain-formal-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/maintain-formal-verification-skill/SKILL.md",
+      "sha256": "d6ed5e2af3446bd4a37c1a635b1bc363e9a8821249c97ee1b74f1382f5929aa0",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "maintain-formal-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/maintain-verification-skill/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/maintain-verification-skill/SKILL.md",
+      "sha256": "ba3ed7050375bffcf30c478388b953181ce2b1109302ab33343d0cbbc9fe7a5c",
+      "mtime": "2026-10-28T01:59:47.834Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "maintain-verification-skill"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/make-pr-easy-to-review/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/make-pr-easy-to-review/SKILL.md",
+      "sha256": "e8da0d4a85b7c04823698f539251617389f827fd9137100ef7eaea5dcc992fe7",
+      "mtime": "2026-10-28T01:59:47.756Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "make-pr-easy-to-review"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/no-comments/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/no-comments/SKILL.md",
+      "sha256": "a5e9f2a8e63cdeea9aa79102716d85b0b4c57a269ee74b0996cc92a22ecc07d0",
+      "mtime": "2026-10-28T01:59:47.760Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "no-comments"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/poteto-help/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/poteto-help/SKILL.md",
+      "sha256": "f8c79a4a70847ec422ddf3a58153b36666aa3f00d4ae9da4c1c2da6874273216",
+      "mtime": "2026-10-28T01:59:47.838Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "poteto-help"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/poteto-mode/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/poteto-mode/SKILL.md",
+      "sha256": "1c1cfd5c9ae82f7308335695eb54e36cd6edbd4db8d6072b6033249f1aea060e",
+      "mtime": "2026-10-28T01:59:47.770Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "poteto-mode"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-attack-the-premise/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-attack-the-premise/SKILL.md",
+      "sha256": "9c9c8fa3bc0f267f07513a21de5e6dfb443b3ba44b8246a6df8da481a29d759d",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-attack-the-premise"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-boundary-discipline/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-boundary-discipline/SKILL.md",
+      "sha256": "e59efe04ed66e3a403a50e70640daeb5c7b592598687a67b6e25ceed6251d19f",
+      "mtime": "2026-10-28T01:59:47.847Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-boundary-discipline"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-build-the-lever/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-build-the-lever/SKILL.md",
+      "sha256": "9dc489b420ff2d4ea3676bd2826a9c3568fa8d965269b2a10145c04f6efa334c",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-build-the-lever"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-encode-lessons-in-structure/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-encode-lessons-in-structure/SKILL.md",
+      "sha256": "1568ece8b96017b6e244530f96d937317d0ac602a58f25415d9f90073b378d6c",
+      "mtime": "2026-10-28T01:59:47.838Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-encode-lessons-in-structure"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-exhaust-the-design-space/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-exhaust-the-design-space/SKILL.md",
+      "sha256": "4abd4aaca2527af82dba58d908c7d91c33a0fe0f2145aa46a19bcf7fb5525db9",
+      "mtime": "2026-10-28T01:59:47.834Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-exhaust-the-design-space"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-experience-first/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-experience-first/SKILL.md",
+      "sha256": "688917387e19da6a343fe657c726eb65998937da69ed7d29f1dfaadb53516a10",
+      "mtime": "2026-10-28T01:59:47.760Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-experience-first"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-explain-the-number/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-explain-the-number/SKILL.md",
+      "sha256": "e2f115b68c5321be12a2372940739d3ce47b7509c5e6acb832e8f4d002e3557c",
+      "mtime": "2026-10-28T01:59:47.759Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-explain-the-number"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-fix-root-causes/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-fix-root-causes/SKILL.md",
+      "sha256": "d42f26857432f44880a2c08280fcfacb8ce08590413e6a2bcbd48aace84b58a9",
+      "mtime": "2026-10-28T01:59:47.843Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-fix-root-causes"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-foundational-thinking/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-foundational-thinking/SKILL.md",
+      "sha256": "a3d9bf77ebb9ed5c5eb9ef6ae719f6eeecf5fda6122a134a89ce6856b14577ab",
+      "mtime": "2026-10-28T01:59:47.760Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-foundational-thinking"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-guard-the-context-window/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-guard-the-context-window/SKILL.md",
+      "sha256": "6db84b7d5e67fb4e2e6a260605f2c2e34fbeaa1bc0e49645eef6f00a17543778",
+      "mtime": "2026-10-28T01:59:47.845Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-guard-the-context-window"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-laziness-protocol/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-laziness-protocol/SKILL.md",
+      "sha256": "4c1514611a4d85f58a8d31403d6541aacbd1254bd981667adf6111b08295c539",
+      "mtime": "2026-10-28T01:59:47.759Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-laziness-protocol"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-make-operations-idempotent/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-make-operations-idempotent/SKILL.md",
+      "sha256": "de925a452e5b74568ef545045c9b221c21f4f8f36e3df0b36c75279a285555c5",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-make-operations-idempotent"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "sha256": "7a4af874d91f91fd0c1dea1204e0d46a2e42cf6eb8b5e1a58479fd461cb0dcf4",
+      "mtime": "2026-10-28T01:59:47.760Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-migrate-callers-then-delete-legacy-apis"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-minimize-reader-load/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-minimize-reader-load/SKILL.md",
+      "sha256": "d10f8f6f185a61df8db1b5037bcf638f815d49f3cfe1fb3613f9a858896e6de5",
+      "mtime": "2026-10-28T01:59:47.762Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-minimize-reader-load"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-model-the-domain/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-model-the-domain/SKILL.md",
+      "sha256": "3d14c29b3aca902ed7bf11716df971d4561f8e9624d70e2a9650feb918a22619",
+      "mtime": "2026-10-28T01:59:47.841Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-model-the-domain"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-never-block-on-the-human/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-never-block-on-the-human/SKILL.md",
+      "sha256": "060b88f06b57486102bd7ac1c6fc73b84092f956a836d9c8947cc768a8eef4c2",
+      "mtime": "2026-10-28T01:59:47.758Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-never-block-on-the-human"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-outcome-oriented-execution/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-outcome-oriented-execution/SKILL.md",
+      "sha256": "55f1baeb9951f8584399bf82042e78f623e1f1dd560cb9b6413302bde43fd439",
+      "mtime": "2026-10-28T01:59:47.759Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-outcome-oriented-execution"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-prove-it-works/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-prove-it-works/SKILL.md",
+      "sha256": "d5ad4e2fe1fe0fe5fd7f96ef117ed435a55a536bb1f2ce353c105c31239c0635",
+      "mtime": "2026-10-28T01:59:47.833Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-prove-it-works"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-redesign-from-first-principles/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-redesign-from-first-principles/SKILL.md",
+      "sha256": "e54d6d205206261850eb5eb28026f0820773e01001485c97b4b423bab18b2c05",
+      "mtime": "2026-10-28T01:59:47.759Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-redesign-from-first-principles"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "sha256": "dd432081bc5664ce1a9513a6b58207d8e4685e0d0cb894278204bd08a637f601",
+      "mtime": "2026-10-28T01:59:47.770Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-separate-before-serializing-shared-state"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-sequence-verifiable-units/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-sequence-verifiable-units/SKILL.md",
+      "sha256": "5bee6caf5abdf7b05b3e7c8d3e66549d108c2f798d8155c352a1764d030816d7",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-sequence-verifiable-units"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-subtract-before-you-add/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-subtract-before-you-add/SKILL.md",
+      "sha256": "af2dfa66022e7a27e05fddf17ad8d8e450ebd4150ca3d037ccf25a8191ac0882",
+      "mtime": "2026-10-28T01:59:47.841Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-subtract-before-you-add"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-test-behavior-not-implementation/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-test-behavior-not-implementation/SKILL.md",
+      "sha256": "8fa32ef4128346c08a2cdb5d9ec3cd08991044936bb77bd1e5b15d35596d3726",
+      "mtime": "2026-10-28T01:59:47.844Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-test-behavior-not-implementation"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-type-system-discipline/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/principle-type-system-discipline/SKILL.md",
+      "sha256": "e4bb75104ff5f37785dfe3417b7ffa1b12a27d88dc0affee96c200e4fa734a24",
+      "mtime": "2026-10-28T01:59:47.832Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "principle-type-system-discipline"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/recall/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/recall/SKILL.md",
+      "sha256": "b18e825be08093e1008ca9b7a52dcd8d22e09392a7c584b10c58cc53138f3ab4",
+      "mtime": "2026-10-28T01:59:47.845Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "recall"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/reflect/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/reflect/SKILL.md",
+      "sha256": "4cda0640ae3f8d1b4c7229e65ae07992500aef5bd2d2091644b637b2f0dc0a2e",
+      "mtime": "2026-10-28T01:59:47.772Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "reflect"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/setup-pstack/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/setup-pstack/SKILL.md",
+      "sha256": "3ec9fdc5576e757464dec08dc34701a094a9b81d160f55a1439ccda6cf5673cc",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "setup-pstack"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/sharpen/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/sharpen/SKILL.md",
+      "sha256": "c804fef77be5157c6a47125e931ff0f914988316cad544607e837cd805d68f93",
+      "mtime": "2026-10-28T01:59:47.758Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "sharpen"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/show-me-your-work/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/show-me-your-work/SKILL.md",
+      "sha256": "6d95ebf11474c949d1d8f041f12892ebeab6bf09c9a3d948299a6ce658151d54",
+      "mtime": "2026-10-28T01:59:47.762Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "show-me-your-work"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/statechart/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/statechart/SKILL.md",
+      "sha256": "9d401e0e3169d75bdabbc4a68d9f964b2fe467003202cdbac14d45c64c39099d",
+      "mtime": "2026-10-28T01:59:47.832Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "statechart"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/swarm/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/swarm/SKILL.md",
+      "sha256": "d9f08647b3380b3f0c43d589e01f6b709e6753573da60de569bd7efc642b1216",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "swarm"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/tdd/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/tdd/SKILL.md",
+      "sha256": "276f883002b7a0b9be4ec982d0752fc68eaceed8e6db502316a87aa4600d152e",
+      "mtime": "2026-10-28T01:59:47.834Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "tdd"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/teach/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/teach/SKILL.md",
+      "sha256": "720c0820a5838097182dc14fa6e0344c0b6a877e281d015458862cd81775220f",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "teach"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/technical-writing/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/technical-writing/SKILL.md",
+      "sha256": "7a6c08c90548d13b80e74b06115aeeb03847dbef758cefc1eeca70ba9c0db50b",
+      "mtime": "2026-10-28T01:59:47.834Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "technical-writing"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/thermo-nuclear-code-quality-review/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/thermo-nuclear-code-quality-review/SKILL.md",
+      "sha256": "35f68c89a24f690eaba7f77c637d3b7dc1cb0fc7bf17670606ffd83f074fa626",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "thermo-nuclear-code-quality-review"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/thermo-nuclear-review/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/thermo-nuclear-review/SKILL.md",
+      "sha256": "8e285b67eb7457715d44b1be8294c9a1aeae069242cb10a92903ad87f019c76a",
+      "mtime": "2026-10-28T01:59:47.833Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "thermo-nuclear-review"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/thermos/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/thermos/SKILL.md",
+      "sha256": "599d59080d3dbee1c8dac455fd718230e47ea0295572bef467df5c32bd983906",
+      "mtime": "2026-10-28T01:59:47.835Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "thermos"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/typescript-best-practices/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/typescript-best-practices/SKILL.md",
+      "sha256": "5b42261bc68bb649ec07aac8fa23912cff9701d26dc20b04a33096c3cba513c9",
+      "mtime": "2026-10-28T01:59:47.837Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "typescript-best-practices"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/unslop/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/unslop/SKILL.md",
+      "sha256": "0503149a9b85dad02bbc747a3aeb534e2ba07f53c5fd57e491ea3d1e67659aa3",
+      "mtime": "2026-10-28T01:59:47.843Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "unslop"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/what-did-i-get-done/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/what-did-i-get-done/SKILL.md",
+      "sha256": "479813c9abaacb5b6b0531f1de7dc5eb2f3bd9673707a992d1073335836e82f8",
+      "mtime": "2026-10-28T01:59:47.771Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "what-did-i-get-done"
+    },
+    {
+      "path": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/why/SKILL.md",
+      "realpath": "/data/home/.codex/plugins/cache/pstack-claude/pstack/0.9.107/skills/why/SKILL.md",
+      "sha256": "0547728389d50fad1e95b64235745320aea1613bd6b6530c164eba58d17bb4de",
+      "mtime": "2026-10-28T01:59:47.840Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "why"
+    },
+    {
+      "path": "/data/home/.codex/pstack-models.md",
+      "realpath": "/data/home/.codex/pstack-models.md",
+      "sha256": "2c53e1d9fe03748e2d23de80b29fe4919a4bd4329555a51e5284ef89deaf0995",
+      "mtime": "2026-10-27T05:01:56.714Z",
+      "symlink": null,
+      "classification": "personal-instructions",
+      "copiedTo": "core/pstack-models.md"
+    },
+    {
+      "path": "/data/home/.codex/skills/.system/imagegen/SKILL.md",
+      "realpath": "/data/home/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba",
+      "mtime": "2026-10-27T04:10:13.021Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "\"imagegen\""
+    },
+    {
+      "path": "/data/home/.codex/skills/.system/openai-docs/SKILL.md",
+      "realpath": "/data/home/.codex/skills/.system/openai-docs/SKILL.md",
+      "sha256": "aa6829e21df2223167c85d2e49b6337a7345c84c1033f1ec10182c7882b36d45",
+      "mtime": "2026-10-27T04:10:13.021Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "\"openai-docs\""
+    },
+    {
+      "path": "/data/home/.codex/skills/.system/review-agent/SKILL.md",
+      "realpath": "/data/home/.codex/skills/.system/review-agent/SKILL.md",
+      "sha256": "07079efd0dc76f05fade424e5dfb048dce1de2df7626e1a4f56292a4f3f92228",
+      "mtime": "2026-10-27T04:10:13.021Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "review-agent"
+    },
+    {
+      "path": "/data/home/.codex/skills/.system/skill-creator/SKILL.md",
+      "realpath": "/data/home/.codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66",
+      "mtime": "2026-10-27T04:10:13.021Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "skill-creator"
+    },
+    {
+      "path": "/data/home/.codex/skills/.system/skill-installer/SKILL.md",
+      "realpath": "/data/home/.codex/skills/.system/skill-installer/SKILL.md",
+      "sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee",
+      "mtime": "2026-10-27T04:10:13.021Z",
+      "symlink": null,
+      "classification": "third-party-skill",
+      "copiedTo": null,
+      "skillName": "skill-installer"
+    },
+    {
+      "path": "/data/home/AGENTS.md",
+      "realpath": "/data/home/AGENTS.md",
+      "sha256": "2ac491b068dc19d68650529a0f73e16bee236ef365ab7a827ae1f3370f5b6d16",
+      "mtime": "2026-10-27T05:01:56.714Z",
+      "symlink": null,
+      "classification": "personal-instructions",
+      "copiedTo": "core/AGENTS.md"
+    },
+    {
+      "path": "/data/home/MACHINE.md",
+      "realpath": "/data/home/MACHINE.md",
+      "sha256": "cf72cf9a5a3ca3ae560421cdadb62e496d457fa686c30cb60b0ddc1dec79bd4e",
+      "mtime": "2026-10-27T03:58:33.401Z",
+      "symlink": null,
+      "classification": "machine-context",
+      "copiedTo": "core/machines/agent-box/MACHINE.md"
+    }
+  ]
+}

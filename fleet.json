@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "inventoriedAt": "2026-10-28",
+  "rollout": {
+    "default": "dry-run",
+    "applyRequiresAuthorization": true,
+    "backupBeforeReplacement": true,
+    "deleteDestinationFiles": false,
+    "installCoreAutomatically": false,
+    "guide": "docs/rollout.md"
+  },
+  "scopes": {
+    "universal": "Personal skills for all selected machines and harnesses",
+    "claude-only": "Personal skills requiring Claude Code",
+    "codex-only": "Personal skills requiring Codex",
+    "command-center": "Personal skills restricted to the designated leader"
+  },
+  "skills": {
+    "fleet-authoring": {
+      "path": "skills/universal/fleet-authoring",
+      "scope": "universal",
+      "origin": "Created for this fleet; not a historical import",
+      "requires": { "tools": [], "environment": [], "skills": [] }
+    }
+  },
+  "machines": {
+    "agent-box": {
+      "id": "m_agqxxaubxeibuacuyghgbcm5cq",
+      "role": "leader",
+      "connection": "local",
+      "home": "/data/home",
+      "workspace": "/data/workspace",
+      "fleetRepo": "/data/home/.t3/projects/fleet",
+      "enabled": true,
+      "harnesses": {
+        "codex": {
+          "enabled": true,
+          "observed": "CLI on PATH; active T3 Code provider",
+          "skillTarget": "/data/home/.codex/skills",
+          "instructionTarget": "/data/home/.codex/AGENTS.md",
+          "instructionSymlinkTarget": "/data/home/AGENTS.md",
+          "scopes": ["universal", "codex-only", "command-center"],
+          "skills": ["fleet-authoring"]
+        },
+        "claude": {
+          "enabled": false,
+          "observed": "Instruction symlink exists; CLI absent from PATH",
+          "skillTarget": "/data/home/.claude/skills",
+          "instructionTarget": "/data/home/.claude/CLAUDE.md",
+          "instructionSymlinkTarget": "/data/home/AGENTS.md",
+          "scopes": ["universal", "claude-only", "command-center"],
+          "skills": ["fleet-authoring"]
+        },
+        "agents-shared": {
+          "enabled": false,
+          "observed": "Directory absent; discovery by future harnesses is unverified",
+          "skillTarget": "/data/home/.agents/skills",
+          "scopes": ["universal"],
+          "skills": ["fleet-authoring"]
+        },
+        "cursor": {
+          "enabled": false,
+          "observed": "Directory absent; T3 provider disabled",
+          "skillTarget": "/data/home/.cursor/skills",
+          "rulesTarget": "/data/home/.cursor/rules",
+          "scopes": ["universal"],
+          "skills": ["fleet-authoring"]
+        }
+      }
+    }
+  }
+}
